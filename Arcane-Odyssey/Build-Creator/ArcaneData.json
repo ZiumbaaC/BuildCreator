@@ -1,0 +1,278 @@
+{
+    "gems": {
+        "agate": {
+            "stats1": [
+                "attack_size",
+                "defense"
+            ],
+            "stats2": {
+                "attack_size":9,
+                "defense":28
+            }
+        },
+        "candelaria": {
+            "stats1": [
+                "power",
+                "attack_speed"
+            ],
+            "stats2": {
+                "power":3,
+                "attack_speed":9
+            }
+        },
+        "kyanite": {
+            "stats1": [
+                "agility",
+                "intensity"
+            ],
+            "stats2": {
+                "agility":9,
+                "intensity":9
+            }
+        },
+        "lapis_lazuli": {
+            "stats1": [
+                "attack_speed",
+                "agility"
+            ],
+            "stats2": {
+                "attack_speed":9,
+                "agility":9
+            }
+        },
+        "larimar": {
+            "stats1": [
+                "attack_speed",
+                "intensity"
+            ],
+            "stats2": {
+                "attack_speed":9,
+                "intensity":9
+            }
+        },
+        "malachite": {
+            "stats1": [
+                "attack_size",
+                "power"
+            ],
+            "stats2": {
+                "attack_size":9,
+                "power":3
+            }
+        },
+        "morenci": {
+            "stats1": [
+                "power",
+                "agility"
+            ],
+            "stats2": {
+                "power":3,
+                "agility":9
+            }
+        },
+        "musgravite": {
+            "descrpition":"doubles secondary jewel effect"
+        },
+        "painite": {
+            "stats1": [
+                "drawback",
+                "defense"
+            ],
+            "stats2": {
+                "drawback":1,
+                "defense":125
+            }
+        },
+        "variscite": {
+            "stats1": [
+                "agility",
+                "attack_size"
+            ],
+            "stats2": {
+                "agility":9,
+                "attack_size":9
+            }
+        },
+        "reagents": {
+            "names": [
+                "air_capacity",
+                "attack_destruction",
+                "attack_knockback",
+                "blocking_power",
+                "climbing_speed",
+                "energy_regeneration",
+                "swimming_speed"
+            ],
+            "values": {
+                "air_capacity":10,
+                "attack_destruction":10,
+                "attack_knockback":10,
+                "blocking_power":2.5,
+                "climbing_speed":10,
+                "energy_regeneration":5,
+                "swimming_speed":10
+            }
+        }
+    },
+    "gear": {
+        "chestpieces": {
+            "cerynxs_sleeveless_robe": {
+                "stats1": [
+                    "defense",
+                    "attack_speed"
+                ],
+                "stats2": {
+                    "defense":234,
+                    "attack_speed":32
+                },
+                "gemslots":2
+            },
+            "fallen_king_armor": {
+                "stats1": [
+                    "power",
+                    "agility",
+                    "attack_size"
+                ],
+                "stats2": {
+                    "power":21,
+                    "agility":18,
+                    "attack_size":18
+                },
+                "gemslots":2
+            },
+            "fighter_jacket": {
+                "stats1": [
+                    "agility",
+                    "attack_size"
+                ],
+                "stats2": {
+                    "agility":18,
+                    "attack_size":30
+                },
+                "gemslots":2
+            },
+            "lion_of_ravenna_armor": {
+                "stats1": [
+                    "defense",
+                    "intensity"
+                ],
+                "stats2": {
+                    "defense":234,
+                    "intensity":32
+                },
+                "gemslots":2
+            },
+            "ravenna_apostle_gi": {
+                "stats1": [
+                    "power",
+                    "attack_speed"
+                ],
+                "stats2": {
+                    "power":21,
+                    "attack_speed":24
+                },
+                "gemslots":2
+            },
+            "sunken_iron_chestplate": {
+                "stats1": [
+                    "defense",
+                    "attack_size"
+                ],
+                "stats2": {
+                    "defense":251,
+                    "attack_size":36
+                },
+                "gemslots":2
+            }
+        },
+        "helmets": {
+
+        },
+        "leggings": {
+
+        },
+        "accessories": {
+
+        }
+    },
+    "enchantments": {
+        "agile": {
+            "stats1": [
+                "agility"
+            ],
+            "stats2": {
+                "agility":36
+            }
+        },
+        "armored": {
+            "stats1": [
+                "defense"
+            ],
+            "stats2": {
+                "defense":104
+            }
+        },
+        "brisk": {
+            "stats1": [
+                "attack_speed"
+            ],
+            "stats2": {
+                "attack_speed":36
+            }
+        },
+        "charged": {
+            "stats1": [
+                "power",
+                "intensity"
+            ],
+            "stats2": {
+                "power":7,
+                "intensity":18
+            }
+        },
+        "enhanced": {
+            "stats1": [
+                "intensity"
+            ],
+            "stats2": {
+                "intensity":36
+            }
+        },
+        "explosive": {
+            "stats1": [
+                "attack_size"
+            ],
+            "stats2": {
+                "attack_size":36
+            }
+        },
+        "hasty": {
+            "stats1": [
+                "attack_speed",
+                "agility"
+            ],
+            "stats2": {
+                "attack_speed":18,
+                "agility":18
+            }
+        },
+        "powerful": {
+            "stats1": [
+                "power"
+            ],
+            "stats2": {
+                "power":12
+            }
+        },
+        "virtuous": {
+            "stats1": [
+                "defense",
+                "warding"
+            ],
+            "stats2": {
+                "defense":52,
+                "warding":1
+            }
+        }
+    }
+}
