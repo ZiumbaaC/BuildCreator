@@ -5,36 +5,73 @@
     </head>
     <body>
         <form>
+            <label id="scalingLabel" for="scalingInput">Scaling:</label>
+            <select name="scalingInput" id="scalingInput">
+                <option value="atk">Attack</option>
+                <option value="def">Defense</option>
+                <option value="hp">Hp</option>
+                <option value="em">Elemental Mastery</option>
+            </select>
+            <br>
+            <br>
             <label id="atkLabel" for="atkInput">Attack:</label>
-            <input type="text" id="atkInput" name="atkInput">
+            <input type="number" id="atkInput" name="atkInput">
             <br>
             <br>
             <label id="hpLabel" for="hpInput">Hp:</label>
-            <input type="text" id="hpInput" name="hpInput">
+            <input type="number" id="hpInput" name="hpInput">
             <br>
             <br>
             <label id="defLabel" for="defInput">Defense:</label>
-            <input type="text" id="defInput" name="defInput">
+            <input type="number" id="defInput" name="defInput">
             <br>
             <br>
             <label id="emLabel" for="emInput">Elemental Mastery:</label>
-            <input type="text" id="emInput" name="emInput">
+            <input type="number" id="emInput" name="emInput">
             <br>
             <br>
             <label id="cdLabel" for="cdInput">Crit Damage:</label>
-            <input type="text" id="cdInput" name="cdInput">
+            <input type="number" id="cdInput" name="cdInput">
             <br>
             <br>
             <label id="crLabel" for="crInput">Crit Rate:</label>
-            <input type="text" id="crInput" name="crInput">
+            <input type="number" id="crInput" name="crInput">
             <br>
             <br>
             <label id="dbLabel" for="dbInput">Damage Bonus:</label>
-            <input type="text" id="dbInput" name="dbInput">
+            <input type="number" id="dbInput" name="dbInput">
             <br>
             <br>
             <label id="asLabel" for="asInput">Attack Scaling:</label>
-            <input type="text" id="asInput" name="asInput">
+            <input type="number" id="asInput" name="asInput">
+            <br>
+            <br>
+            <label id="aasLabel" for="aasInput">Additive Attack Scaling:</label>
+            <input type="number" id="aasInput" name="aasInput">
+            <br>
+            <br>
+            <label id="baseDmgMultiLabel" for="baseDmgMultiInput">Base Damage Multiplier:</label>
+            <input type="number" id="baseDmgMultiInput" name="baseDmgMultiInput">
+            <br>
+            <br>
+            <label id="enemyDmgReductionLabel" for="enemyDmgReductionInput">Enemy Damage Reduction:</label>
+            <input type="number" id="enemyDmgReductionInput" name="enemyDmgReductionInput">
+            <br>
+            <br>
+            <label id="lvlLabel" for="lvlInput">Level:</label>
+            <input type="number" id="lvlInput" name="lvlInput">
+            <br>
+            <br>
+            <label id="enemyLvlLabel" for="enemyLvlInput">Enemy Level:</label>
+            <input type="number" id="enemyLvlInput" name="enemyLvlInput">
+            <br>
+            <br>
+            <label id="enemyResLabel" for="enemyResInput">Enemy Resistance:</label>
+            <input type="number" id="enemyResInput" name="enemyResInput">
+            <br>
+            <br>
+            <label id="reactionBonusLabel" for="reactionBonusInput">Reaction Bonus:</label>
+            <input type="number" id="reactionBonusInput" name="reactionBonusInput">
             <br>
             <br>
             <label id="elementLabel" for="elementInput">Element:</label>
@@ -50,13 +87,18 @@
             </select>
             <br>
             <br>
-            <label id="scalingLabel" for="scalingInput">Scaling:</label>
-            <select name="scalingInput" id="scalingInput">
-                <option value="atk">Attack</option>
-                <option value="def">Defense</option>
-                <option value="hp">Hp</option>
-                <option value="em">Elemental Mastery</option>
-            </select>
+            <button onclick="calculate()">Calculate</button>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p id="result1"></p>
+            <br>
+            <br>
+            <p id="result2"></p>
+            <br>
+            <br>
+            <p id="result3"></p>
         </form>
     </body>
 
