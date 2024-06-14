@@ -5,35 +5,39 @@
     </head>
     <body>
         <form>
-            <label for="atkInput">Attack          :</label>
+            <label id="atkLabel" for="atkInput">Attack:</label>
             <input type="text" id="atkInput" name="atkInput">
             <br>
             <br>
-            <label for="hpInput">Hp               :</label>
+            <label id="hpLabel" for="hpInput">Hp:</label>
             <input type="text" id="hpInput" name="hpInput">
             <br>
             <br>
-            <label for="defInput">Defense         :</label>
+            <label id="defLabel" for="defInput">Defense:</label>
             <input type="text" id="defInput" name="defInput">
             <br>
             <br>
-            <label for="emInput">Elemental Mastery:</label>
+            <label id="emLabel" for="emInput">Elemental Mastery:</label>
             <input type="text" id="emInput" name="emInput">
             <br>
             <br>
-            <label for="cdInput">Crit Damage      :</label>
+            <label id="cdLabel" for="cdInput">Crit Damage:</label>
             <input type="text" id="cdInput" name="cdInput">
             <br>
             <br>
-            <label for="crInput">Crit Rate        :</label>
+            <label id="crLabel" for="crInput">Crit Rate:</label>
             <input type="text" id="crInput" name="crInput">
             <br>
             <br>
-            <label for="dbInput">Damage Bonus     :</label>
+            <label id="dbLabel" for="dbInput">Damage Bonus:</label>
             <input type="text" id="dbInput" name="dbInput">
             <br>
             <br>
-            <label for="elementInput">Element          :</label>
+            <label id="asLabel" for="asInput">Attack Scaling:</label>
+            <input type="text" id="asInput" name="asInput">
+            <br>
+            <br>
+            <label id="elementLabel" for="elementInput">Element:</label>
             <select name="elementInput" id="elementInput">
                 <option value="physical">Physical</option>
                 <option value="hydro">Hydro</option>
@@ -43,6 +47,15 @@
                 <option value="geo">Geo</option>
                 <option value="anemo">Anemo</option>
                 <option value="dendro">Dendro</option>
+            </select>
+            <br>
+            <br>
+            <label id="scalingLabel" for="scalingInput">Scaling:</label>
+            <select name="scalingInput" id="scalingInput">
+                <option value="atk">Attack</option>
+                <option value="def">Defense</option>
+                <option value="hp">Hp</option>
+                <option value="em">Elemental Mastery</option>
             </select>
         </form>
     </body>
