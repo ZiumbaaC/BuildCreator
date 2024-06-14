@@ -128,7 +128,7 @@
             let hpScaling = scaling == "hp";
             let emScaling = scaling == "em"; 
 
-            
+
             let baseDmg = atkScaling ? as * atk : defScaling ? as * def : hpScaling ? as * hp : as * em;
         
             let additiveBaseDmg = atkScaling ? aas * atk : defScaling ? aas * def : hpScaling ? aas * hp : aas * em;
@@ -151,9 +151,9 @@
         
             let averageDamage = critDamage * (cr / 100) + damage * (1 - cr / 100);
         
-            document.getElementById("result1").innerHTML = "Non Crit Damage = " + damage;
-            document.getElementById("result2").innerHTML = "Crit Damage = " + critDamage;
-            document.getElementById("result3").innerHTML = "Average Damage = " + averageDamage;
+            document.getElementById("result1").innerHTML = "Non Crit Damage = " + (damage + []);
+            document.getElementById("result2").innerHTML = "Crit Damage = " + (critDamage + []);
+            document.getElementById("result3").innerHTML = "Average Damage = " + (averageDamage + []);
         }
     </script>
 </html>
